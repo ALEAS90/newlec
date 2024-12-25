@@ -16,6 +16,7 @@
 import random
 import string
 
+
 alpha = string.ascii_lowercase
 
 
@@ -41,4 +42,3 @@ print(next(gen))
 print(next(gen))
 print(next(gen))
 print(next(gen))
-
