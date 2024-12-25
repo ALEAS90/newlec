@@ -37,6 +37,8 @@ def test_numbers():
         all_division(4, 'd', 0, 8)
 
 
+
+
 def test_index_error():
     with pytest.raises(IndexError):
         all_division(), 'не хватает аргументов'

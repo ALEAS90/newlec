@@ -19,7 +19,6 @@ import string
 
 alpha = string.ascii_lowercase
 
-
 def generate_random_name(alpha):
     while True:
         first_word = ''
