@@ -9,7 +9,6 @@
 import pytest
 
 
-
 def all_division(*arg1):
     division = arg1[0]
     for i in arg1[1:]:

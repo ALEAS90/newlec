@@ -12,8 +12,6 @@ def all_division(*arg1):
     return division
 
 
-
-
 # all_division(2, 4, 89)
 
 @pytest.mark.parametrize("a, b, result", [pytest.param(10, 10, 1, marks=pytest.mark.smoke),
